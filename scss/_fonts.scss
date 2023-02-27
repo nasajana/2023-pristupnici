@@ -1,0 +1,58 @@
+@use "variables";
+
+a {
+  color: variables.$primary-color;
+  font-weight: 500;
+  &:hover {
+    color: adjust-hue($color: rgb(35, 35, 35), $degrees: 0.8);
+    text-decoration: none;
+  }
+  &:focus-visible {
+    outline: 3px dotted red;
+    outline-offset: 2px;
+    text-decoration: none;
+
+  }
+}
+.page-title {
+  & h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem 0;
+    margin: 0 auto;
+    color: variables.$primary-color;
+    &:after {
+      content: "";
+      height: 3px;
+      width: 60%;
+      background-color: variables.$secondary-color;
+      display: block;
+      margin: 5px auto;
+    }
+  }
+}
+.footer-bottom {
+  background-color: variables.$primary-color;
+  padding: 0.5em;
+  & * {
+    font-size: smaller;
+    color: variables.$base-color;
+    text-align: center;
+  }
+}
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.quicklinks {
+  & ul {
+    display: flex;
+  }
+  & li {
+    list-style: none;
+    padding: 1rem;
+  }
+  & a {
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,18 @@
+[
+	{
+		"nazev": "Mišmaš",
+		"cil": "/themes/mismas/"
+	},
+	{
+		"nazev": "Hlavní menu",
+		"cil": "/themes/hlavni-menu/"
+	},
+	{
+		"nazev": "Fokus",
+		"cil": "/themes/theme-focus/"
+	},
+	{
+		"nazev": "Checklist",
+		"cil": "/themes/checklist/"
+	}
+]

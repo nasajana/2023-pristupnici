@@ -1,0 +1,46 @@
+@use "variables";
+
+// menu
+.main-menu {
+  background-color: variables.$primary-color-dark;
+  border-bottom: 5px solid variables.$secondary-color;
+}
+
+.menu {
+  &__item {
+    border-bottom: 3px solid transparent;
+    display: block;
+    padding: 0 10px;
+
+    &:hover,
+    &--active {
+      border-color: variables.$secondary-color;
+      background-color: variables.$primary-color;
+      transition: all 0.5s;
+    }
+  }
+  & ul {
+    padding: 0;
+    margin: 0;
+  }
+  &__list {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+
+    & a {
+      display: block;
+      padding: 10px 15px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: variables.$base-color;
+
+      &:focus {
+        border-color: variables.$secondary-color;
+        background-color: variables.$primary-color;
+      }
+    }
+  }
+}

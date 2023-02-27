@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+  }
+  
+  html {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75;
+    background: #fff;
+    color: #3c3c3c;
+  }
+  
+  ::selection {
+    background: #39f;
+    color: #fff;
+    text-shadow: none;
+  }

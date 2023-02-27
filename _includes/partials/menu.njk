@@ -1,0 +1,19 @@
+<nav class="menu">
+    <ul class="menu__list">
+        <li class="menu__item {{ 'menu__item--active' if page.fileSlug === '' }}">
+            <a href="/">Úvod</a>
+        </li>
+        <li class="menu__item {{ 'menu__item--active' if page.fileSlug === 'pravidla' }}">
+            <a href="/pravidla/">Pravidla</a>
+        </li>
+                <li class="menu__item {{ 'menu__item--active' if page.fileSlug === 'themes' }}">
+            <a href="/themes/">Témata</a>
+        </li>
+        <li class="menu__item {{ 'menu__item--active' if page.fileSlug === 'vzory' }}">
+            <a href="/vzory/">Vzory</a>
+        </li>
+        <li class="menu__item {{ 'menu__item--active' if page.fileSlug === 'testovani' }}">
+            <a href="/testovani/">Testování</a>
+        </li>
+    </ul>
+</nav>

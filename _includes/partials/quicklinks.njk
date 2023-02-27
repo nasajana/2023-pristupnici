@@ -1,0 +1,13 @@
+<aside class="quicklinks section">
+    <div class="container">
+    <h2>Rychlé odkazy
+    </h2>
+    <ul>
+        {% for odkaz in odkazy %}
+            <li>
+                <a href="{{ odkaz.cil }}">{{ odkaz.nazev }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+    </div>
+</aside>
