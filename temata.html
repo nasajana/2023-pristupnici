@@ -1,0 +1,19 @@
+---
+layout: layouts/page.njk
+title: Témata, která často řeším
+---
+
+
+<p>tato stránka může být rozcestníkem témat, něco jako náhled blogových příspěvků s odkazy na samostatné kapitoly. Ty
+    budou přidávány jako články pouze v markdownu, umístí se do šablony. </p>
+<p>tato stránka může být rozcestníkem témat, něco jako náhled blogových příspěvků s odkazy na samostatné kapitoly. Ty
+    budou přidávány jako články pouze v markdownu, umístí se do šablony. </p>
+
+{% for prispevek in collections.temata %}
+
+<h2>{{ prispevek.data.subtitle }}</h2>
+<p>{{ prispevek.data.perex }}</p>
+<p> <a href="{{ prispevek.url }}">celý článek</a> </p>
+
+<hr>
+{% endfor %}

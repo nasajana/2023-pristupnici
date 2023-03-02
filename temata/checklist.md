@@ -2,6 +2,7 @@
 layout: layouts/clanek.njk
 tags: temata
 title: Stručný výpis bodů k testování
+subtitle: Vnímatelný
 perex: Tady bude úvodní text k článku o něčem zajímavém.
 ---
 ## Vnímatelný

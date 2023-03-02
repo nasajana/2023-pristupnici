@@ -2,6 +2,7 @@
 layout: layouts/clanek.njk
 tags: temata
 title: Hlavní nabídka na webu
+subtitle: Menu
 perex: Tady bude úvodní text k článku o něčem zajímavém.
 ---
 

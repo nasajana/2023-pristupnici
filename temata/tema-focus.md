@@ -2,6 +2,8 @@
 layout: layouts/clanek.njk
 tags: temata
 title: Fokus - viditelný
+subtitle: Fokus
+perex: Tady bude úvodní text k článku o něčem zajímavém.
 ---
 
 ## Proč je důležitý viditelný fokus
