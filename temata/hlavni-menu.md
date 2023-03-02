@@ -1,6 +1,8 @@
 ---
-layout: layouts/page.njk
+layout: layouts/clanek.njk
+tags: temata
 title: Hlavní nabídka na webu
+perex: Tady bude úvodní text k článku o něčem zajímavém.
 ---
 
 # Hlavní nabídka na webu a vše kolem toho

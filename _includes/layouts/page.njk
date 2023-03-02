@@ -1,14 +1,21 @@
 ---
-layout: layouts/body.njk
+layout: layouts/template.njk
 ---
 
-<main class="page">
-    <div class="page-title">
-        <h1>{{ title }}</h1>
+<div class="wrapper">
+    {% include 'partials/header.njk' %}
+    <div class="content">
+        <main class="page">
+            <div class="page-title">
+                <h1>{{ title }}</h1>
+            </div>
+            <div class="section">
+                <div class="container">
+                    {{ content | safe }}
+                </div>
+            </div>
+        </main>
+        {% include 'partials/quicklinks.njk' %}
     </div>
-    <div class="section">
-        <div class="container">
-            {{ content | safe }}
-        </div>
-    </div>
-</main>
+    {% include 'partials/foo.njk' %}
+</div>

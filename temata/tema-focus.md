@@ -1,6 +1,6 @@
 ---
-layout: layouts/page.njk
-tags: theme
+layout: layouts/clanek.njk
+tags: temata
 title: Fokus - viditelný
 ---
 

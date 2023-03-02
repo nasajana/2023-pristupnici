@@ -1,18 +1,18 @@
 [
 	{
 		"nazev": "Mišmaš",
-		"cil": "/themes/mismas/"
+		"cil": "/mismas/"
 	},
 	{
 		"nazev": "Hlavní menu",
-		"cil": "/themes/hlavni-menu/"
+		"cil": "/temata/hlavni-menu/"
 	},
 	{
 		"nazev": "Fokus",
-		"cil": "/themes/theme-focus/"
+		"cil": "/teamta/tema-focus/"
 	},
 	{
 		"nazev": "Checklist",
-		"cil": "/themes/checklist/"
+		"cil": "/temata/checklist/"
 	}
 ]

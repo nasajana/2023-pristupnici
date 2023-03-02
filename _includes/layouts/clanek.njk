@@ -1,0 +1,30 @@
+---
+layout: layouts/template.njk
+---
+
+<div class="wrapper">
+    {% include 'partials/header.njk' %}
+    <div class="content">
+        <main class="page">
+            <div class="page-title">
+                <h1>{{ title }}</h1>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="article">
+                        <h2 class="article__title">Populárně o přístupnosti</h2>
+                        <div class="article__content">
+                            <div class="article__text">
+                                <p class="article__perex">Tučný text pro úvodní text k článku - perex</p>
+                                <ul>
+                                    {{ content | safe }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            {% include 'partials/quicklinks.njk' %}
+        </div>
+        {% include 'partials/foo.njk' %}
+    </div>

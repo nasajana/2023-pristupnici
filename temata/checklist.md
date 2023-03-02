@@ -1,6 +1,8 @@
 ---
-layout: layouts/page.njk
+layout: layouts/clanek.njk
+tags: temata
 title: Stručný výpis bodů k testování
+perex: Tady bude úvodní text k článku o něčem zajímavém.
 ---
 ## Vnímatelný
 
