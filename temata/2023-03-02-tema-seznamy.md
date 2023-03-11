@@ -1,5 +1,5 @@
 ---
-layout: hlavni
+layout: layouts/clanek.njk
 tags: temata
 title: Téma - seznamy
 subtitle: rozbalovací seznam

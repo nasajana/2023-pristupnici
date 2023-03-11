@@ -13,3 +13,5 @@ zde nějaký rozcestník a návody na komentáře u tématu Hlavní navigace web
 [Fly-out Menus](https://www.w3.org/WAI/tutorials/menus/flyout/)
 
 [https://a11y-101.com/development/nested-navigation](https://a11y-101.com/development/nested-navigation)
+
+[menu s tlačítky a s ukázkou vdea s odečítačem](https://adrianroselli.com/2019/06/link-disclosure-widget-navigation.html)

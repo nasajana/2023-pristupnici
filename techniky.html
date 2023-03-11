@@ -1,0 +1,1365 @@
+---
+layout: layouts/page.njk
+title: Techniky pro WCAG 2.1
+---
+
+<p>souhrn</p>
+
+<ul>
+    <li><i>Techniky</i>&nbsp;jsou příklady způsobů, jak splnit
+        pokyny pro zpřístupnění webového obsahu (WCAG).&nbsp;Nemusí splňovat
+        WCAG.&nbsp;Informace naleznete&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Techniques/about" target="_blank">v části O
+            technikách
+            WCAG</a>&nbsp;.</li>
+</ul>
+
+
+<p><b>ARIA techniky<a href="https://www.w3.org/WAI/WCAG21/Techniques/#aria"
+            title="Trvalý odkaz na ARIA Techniques" target="_blank">§</a></b></p>
+
+<ul>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA1" target="_blank">ARIA1: Použití
+            vlastnosti aria-describedby k poskytnutí popisného štítku pro ovládací
+            prvky uživatelského rozhraní</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA2" target="_blank">ARIA2:
+            Identifikace povinného pole s vlastností aria-required</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA4" target="_blank">ARIA4: Použití
+            role WAI-ARIA k odhalení role komponenty uživatelského rozhraní</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA5" target="_blank">ARIA5: Použití
+            atributů stavu a vlastností WAI-ARIA k odhalení stavu komponenty
+            uživatelského rozhraní</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA6" target="_blank">RIA6: Použití
+            aria-label k poskytování štítků pro objekty</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA7" target="_blank">ARIA7: Použití
+            aria-labelledby pro účely odkazu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA8" target="_blank">ARIA8: Použití
+            aria-label pro účely odkazu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA9" target="_blank">ARIA9: Použití
+            aria-labelledby ke zřetězení štítku z několika textových uzlů</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA10" target="_blank">RIA10: Použití
+            aria-labelledby k poskytnutí textové alternativy pro netextový obsah</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA11" target="_blank">RIA11: Použití
+            orientačních bodů ARIA k identifikaci oblastí stránky</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA12" target="_blank">RIA12: Použití
+            role=heading k identifikaci nadpisů</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA13" target="_blank">RIA13: Použití
+            aria-labelledby k pojmenování regionů a orientačních bodů</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA14" target="_blank">RIA14: Použití
+            aria-label k poskytnutí neviditelného štítku tam, kde nelze použít
+            viditelný štítek</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA15" target="_blank">RIA15: Použití
+            aria-describedby k poskytování popisů obrázků</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA16" target="_blank">RIA16: Použití
+            aria-labelledby k zadání názvu ovládacích prvků uživatelského rozhraní</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA17" target="_blank">RIA17: Použití
+            seskupovacích rolí k identifikaci souvisejících ovládacích prvků formuláře</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA18" target="_blank">ARIA18: Použití
+            aria-alertdialog k identifikaci chyb</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA19" target="_blank">ARIA19:
+            Použití ARIA role=alert nebo Live Regions k identifikaci chyb</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA20" target="_blank">RIA20: Použití
+            role regionu k identifikaci regionu stránky</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA21" target="_blank">ARIA21:
+            Použití Aria-Invalid k označení chybového pole</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA22" target="_blank">ARIA22: Použití
+            role=status k prezentaci stavových zpráv</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA23" target="_blank">RIA23: Použití
+            role=log k identifikaci sekvenční aktualizace informací</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA24" target="_blank">ARIA24:
+            Sémantická identifikace ikony písma pomocí role=&quot;img&quot;</a></li>
+</ul>
+
+<p><b>Techniky skriptů na straně klienta<a href="https://www.w3.org/WAI/WCAG21/Techniques/#client-side-script"
+            title="Trvalý odkaz na techniky skriptů na straně klienta" target="_blank">§</a></b></p>
+
+<ul>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR1" target="_blank">SCR1:
+            Umožňuje uživateli prodloužit výchozí časový limit</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR2" target="_blank">SCR2:
+            Použití redundantních ovladačů událostí klávesnice a myši</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR14" target="_blank">SCR14:
+            Použití skriptů k tomu, aby se nepodstatné výstrahy staly volitelnými</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR16" target="_blank">SCR16:
+            Poskytnutí skriptu, který uživatele varuje před vypršením časového limitu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR18" target="_blank">SCR18:
+            Poskytování ověření a výstrahy na straně klienta</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR19" target="_blank">SCR19:
+            Použití události onchange na prvku select bez způsobení změny kontextu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR20" target="_blank">SCR20:
+            Použití klávesnice a dalších funkcí specifických pro zařízení</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR21" target="_blank">SCR21:
+            Použití funkcí modelu DOM (Document Object Model) k přidání obsahu na
+            stránku</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR22" target="_blank">SCR22:
+            Používání skriptů k ovládání blikání a jeho zastavení do pěti sekund nebo
+            méně</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR24" target="_blank">SCR24:
+            Použití progresivního vylepšení k otevírání nových oken na žádost
+            uživatele</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR26" target="_blank">SCR26:
+            Vložení dynamického obsahu do modelu objektu dokumentu bezprostředně za
+            jeho spouštěcí prvek</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR27" target="_blank">SCR27:
+            Změna pořadí částí stránky pomocí objektového modelu dokumentu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR28" target="_blank">SCR28:
+            Použití rozbalitelné a sbalitelné nabídky k obcházení bloku obsahu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR29" target="_blank">SCR29:
+            Přidání akcí přístupných z klávesnice ke statickým prvkům HTML</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR30" target="_blank">SCR30:
+            Použití skriptů ke změně textu odkazu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR31" target="_blank">SCR31:
+            Použití skriptu ke změně barvy pozadí nebo ohraničení aktivního prvku</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR32" target="_blank">SCR32:
+            Poskytování ověření na straně klienta a přidání chybového textu
+            prostřednictvím DOM</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR33" target="_blank">SCR33:
+            Použití skriptu k posouvání obsahu a poskytnutí mechanismu pro jeho pozastavení</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR34" target="_blank">SCR34:
+            Výpočet velikosti a pozice způsobem, který se mění s velikostí textu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR35" target="_blank">SCR35:
+            Zpřístupnění klávesnice akcí pomocí události onclick kotev a tlačítek</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR36" target="_blank">SCR36:
+            Poskytování mechanismu, který uživatelům umožňuje zobrazovat pohybující
+            se, rolující nebo automaticky aktualizovaný text ve statickém okně nebo
+            oblasti</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR37" target="_blank">SCR37:
+            Vytváření vlastních dialogů způsobem nezávislým na zařízení</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR38" target="_blank">SCR38:
+            Vytvoření vyhovující alternativní verze pro webovou stránku navrženou s
+            progresivním vylepšením</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR39" target="_blank">SCR39:
+            Zajištění toho, aby obsah na fokus nebo visel visel, odmítatelný a trvalý</a></li>
+</ul>
+
+<p><b>Techniky CSS<a href="https://www.w3.org/WAI/WCAG21/Techniques/#css" title="Trvalý odkaz na techniky CSS" target="_blank">§</a></b>
+</p>
+
+<ul>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C6" target="_blank">C6:
+            Umístění obsahu na základě strukturálního označení</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C7" target="_blank">C7:
+            Použití CSS ke skrytí části textu odkazu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C8" target="_blank">C8:
+            Použití mezer mezi písmeny CSS k ovládání mezer ve slově</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C9" target="_blank">C9:
+            Použití CSS k zahrnutí dekorativních obrázků</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C12" target="_blank">C12:
+            Použití procent pro velikosti písma</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C13" target="_blank">C13:
+            Použití pojmenovaných velikostí písem</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C14" target="_blank">C14:
+            Použití jednotek em pro velikosti písma</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C15" target="_blank">C15:
+            Použití CSS ke změně prezentace komponenty uživatelského rozhraní, když je
+            aktivní</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C17" target="_blank">C17:
+            Změna měřítka prvků formuláře, které obsahují text</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C18" target="_blank">C18:
+            Použití pravidel okrajů a odsazení CSS místo obrázků mezerníku pro návrh
+            rozvržení</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C19" target="_blank">C19:
+            Určení zarovnání buď doleva NEBO doprava v CSS</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C20" target="_blank">C20:
+            Použití relativních měření k nastavení šířky sloupců tak, aby řádky mohly
+            mít průměrně 80 znaků nebo méně při změně velikosti prohlížeče</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C21" target="_blank">C21:
+            Určení řádkování v CSS</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C22" target="_blank">C22:
+            Použití CSS k ovládání vizuální prezentace textu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C23" target="_blank">C23:
+            Určení barev textu a pozadí sekundárního obsahu, jako jsou bannery, funkce
+            a navigace v CSS, bez určení barev textu a pozadí hlavního obsahu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C24" target="_blank">C24:
+            Použití procentuálních hodnot v CSS pro velikosti kontejnerů</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C25" target="_blank">C25:
+            Určení okrajů a rozvržení v CSS pro vymezení oblastí webové stránky, aniž
+            by se určovaly barvy textu a pozadí textu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C27" target="_blank">C27:
+            Aby objednávka DOM odpovídala vizuální objednávce</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C28" target="_blank">C28:
+            Určení velikosti textových kontejnerů pomocí jednotek em</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C29" target="_blank">C29:
+            Použití přepínače stylů k poskytnutí vyhovující alternativní verze</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C30" target="_blank">C30:
+            Použití CSS k nahrazení textu obrázky textu a poskytnutí ovládacích prvků
+            uživatelského rozhraní pro přepínání</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C31" target="_blank">C31:
+            Použití CSS Flexbox k přeformátování obsahu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C32" target="_blank">C32:
+            Použití dotazů na média a CSS mřížky k přeformátování sloupců</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C33" target="_blank">C33:
+            Povolení přeformátování s dlouhými adresami URL a řetězci textu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C34" target="_blank">C34:
+            Použití dotazů na média k odstranění fixních záhlaví/zápatí</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C35" target="_blank">C35:
+            Umožňuje mezery v textu bez zalamování</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C36" target="_blank">C36:
+            Povolení přepsání mezer mezi textem</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C37" target="_blank">C37:
+            Použití CSS maximální šířky a výšky k přizpůsobení obrázků</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C38" target="_blank">C38:
+            Použití CSS šířky, maximální šířky a flexboxu pro přizpůsobení štítků a
+            vstupů</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C39" target="_blank">C39:
+            Použití CSS dotazu na omezení pohybu k zabránění pohybu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C40" target="_blank">C40:
+            Vytvoření dvoubarevného indikátoru zaostření pro zajištění dostatečného
+            kontrastu se všemi komponenty</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C41" target="_blank">C41:
+            Vytvoření indikátoru silného zaostření v rámci komponenty</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C42" target="_blank">C42:
+            Použití minimální výšky a minimální šířky k zajištění dostatečné
+            vzdálenosti mezi cíli</a></li>
+</ul>
+
+<p><b>Běžná selhání<a href="https://www.w3.org/WAI/WCAG21/Techniques/#failures"
+            title="Permalink for Common Failures" target="_blank">§</a></b></p>
+
+<ul>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F1" target="_blank">F1: Selhání
+            kritéria úspěšnosti 1.3.2 kvůli změně významu obsahu umístěním informací
+            pomocí CSS</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F2" target="_blank">F2: Selhání
+            kritéria úspěšnosti 1.3.1 kvůli použití změn v prezentaci textu k přenosu
+            informací bez použití vhodného označení nebo textu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F3" target="_blank">F3: Selhání
+            kritéria úspěšnosti 1.1.1 kvůli použití CSS k zahrnutí obrázků, které
+            předávají důležité informace</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F4" target="_blank">F4: Selhání
+            kritéria úspěchu 2.2.2 kvůli použití text-decoration:blink bez mechanismu,
+            který by to zastavil za méně než pět sekund</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F7" target="_blank">F7: Selhání
+            kritéria úspěšnosti 2.2.2 kvůli objektu nebo appletu po dobu delší než pět
+            sekund</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F8" target="_blank">F8: Selhání
+            kritéria úspěšnosti 1.2.2 kvůli titulkům vynechávajícím některé dialogy
+            nebo důležité zvukové efekty</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F9" target="_blank">F9: Selhání
+            kritéria úspěchu 3.2.5 kvůli změně kontextu, když uživatel odebere fokus z
+            prvku formuláře</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F10" target="_blank">F10: Selhání
+            kritéria úspěšnosti 2.1.2 a požadavku na shodu 5 kvůli kombinaci více
+            formátů obsahu způsobem, který uživatele uvězní v jednom typu formátu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F12" target="_blank">F12: Selhání
+            kritéria úspěšnosti 2.2.5 kvůli časovému limitu relace bez opětovného
+            ověření mechanismu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F13" target="_blank">F13: Selhání
+            kritéria úspěšnosti 1.1.1 a 1.4.1 kvůli textové alternativě, která
+            neobsahuje informace přenášené barevnými rozdíly v obrázku</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F14" target="_blank">F14: Selhání
+            kritéria úspěšnosti 1.3.3 kvůli identifikaci obsahu pouze podle jeho tvaru
+            nebo umístění</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F15" target="_blank">F15: Selhání
+            kritéria úspěšnosti 4.1.2 kvůli implementaci vlastních ovládacích prvků,
+            které pro technologii nepoužívají rozhraní API pro usnadnění, nebo tak
+            činí neúplně</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F16" target="_blank">F16: Selhání
+            kritéria úspěšnosti 2.2.2 kvůli zahrnutí posouvání obsahu, kde pohyb není
+            pro aktivitu nezbytný, aniž by byl zahrnut mechanismus pro pozastavení a
+            opětovné spuštění obsahu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F19" target="_blank">F19: Selhání
+            požadavku na shodu 1 z důvodu neposkytnutí metody pro uživatele k nalezení
+            alternativní vyhovující verze nevyhovující webové stránky</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F20" target="_blank">F20: Selhání
+            kritéria úspěšnosti 1.1.1 a 4.1.2 kvůli neaktualizaci textových
+            alternativ, když dojde ke změnám netextového obsahu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F22" target="_blank">F22: Selhání
+            kritéria úspěšnosti 3.2.5 kvůli otevření oken, která uživatel nepožaduje</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F23" target="_blank">F23: Selhání
+            1.4.2 kvůli přehrávání zvuku delšího než 3 sekundy, kde není žádný
+            mechanismus, který by jej vypnul</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F24" target="_blank">F24: Selhání
+            kritéria úspěšnosti 1.4.3, 1.4.6 a 1.4.8 kvůli zadání barev popředí bez
+            určení barev pozadí nebo naopak</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F25" target="_blank">F25: Selhání
+            kritéria úspěšnosti 2.4.2 kvůli názvu webové stránky, která neidentifikuje
+            obsah</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F26" target="_blank">F26: Selhání
+            kritéria úspěšnosti 1.3.3 kvůli použití pouze grafického symbolu k přenosu
+            informací</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F30" target="_blank">F30: Selhání
+            kritéria úspěšnosti 1.1.1 a 1.2.1 kvůli použití textových alternativ,
+            které alternativními nejsou (např. názvy souborů nebo zástupný text)</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F31" target="_blank">F31: Selhání
+            kritéria úspěšnosti 3.2.4 kvůli použití dvou různých štítků pro stejnou
+            funkci na různých webových stránkách v rámci sady webových stránek</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F32" target="_blank">F32: Selhání
+            kritéria úspěšnosti 1.3.2 kvůli použití mezer ve slově k řízení mezer</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F33" target="_blank">F33: Selhání
+            kritéria úspěšnosti 1.3.1 a 1.3.2 kvůli použití znaků mezery k vytvoření
+            více sloupců v obsahu prostého textu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F34" target="_blank">F34: Selhání
+            kritéria úspěšnosti 1.3.1 a 1.3.2 kvůli použití znaků mezer k formátování
+            tabulek v obsahu prostého textu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F36" target="_blank">F36: Selhání
+            kritéria úspěšnosti 3.2.2 kvůli automatickému odeslání formuláře a
+            přidělení hodnoty</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F37" target="_blank">F37: Selhání
+            kritéria úspěšnosti 3.2.2 v důsledku spuštění nového okna bez předchozího
+            varování, když se změní výběr přepínače, zaškrtávacího políčka nebo
+            seznamu výběru</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F38" target="_blank">F38: Selhání
+            kritéria úspěšnosti 1.1.1 kvůli neoznačení dekorativních obrázků v HTML
+            způsobem, který umožňuje asistenční technologii je ignorovat</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F39" target="_blank">F39: Selhání
+            kritéria úspěšnosti 1.1.1 z důvodu poskytnutí textové alternativy, která
+            není nulová (např. alt=&quot;mezník&quot; nebo alt=&quot;obrázek&quot;)
+            pro obrázky, které by asistenční technologie měla ignorovat</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F40" target="_blank">F40: Selhání
+            kvůli použití meta přesměrování s časovým limitem</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F41" target="_blank">F41: Selhání
+            kritéria úspěšnosti 2.2.1, 2.2.4 a 3.2.5 kvůli použití meta refresh k
+            opětovnému načtení stránky</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F42" target="_blank">F42: Selhání
+            kritérií úspěšnosti 1.3.1, 2.1.1, 2.1.3 nebo 4.1.2 při emulaci odkazů</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F43" target="_blank">F43: Selhání
+            kritéria úspěšnosti 1.3.1 kvůli použití strukturálních značek způsobem,
+            který nereprezentuje vztahy v obsahu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F44" target="_blank">F44: Selhání
+            kritéria úspěšnosti 2.4.3 kvůli použití tabindex k vytvoření pořadí tabel,
+            které nezachovává význam a funkčnost</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F46" target="_blank">F46: Selhání
+            kritéria úspěšnosti 1.3.1 kvůli použití prvků, tabulek rozložení</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F47" target="_blank">F47: Selhání
+            kritéria úspěšnosti 2.2.2 kvůli použití prvku blink</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F48" target="_blank">F48: Selhání
+            kritéria úspěšnosti 1.3.1 kvůli použití prvku pre k označení tabulkových
+            informací</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F49" target="_blank">F49: Selhání
+            kritéria úspěšnosti 1.3.2 kvůli použití tabulky rozložení HTML, která při
+            linearizaci nedává smysl</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F50" target="_blank">F50: Selhání
+            kritéria úspěšnosti 2.2.2 kvůli skriptu, který způsobuje efekt mrkání bez
+            mechanismu, který by mrkání zastavil na 5 sekund nebo méně</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F52" target="_blank">F52: Selhání
+            kritéria úspěšnosti 3.2.1 a 3.2.5 kvůli otevření nového okna, jakmile se
+            načte nová stránka</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F54" target="_blank">F54: Selhání
+            kritéria úspěšnosti 2.1.1 kvůli použití pouze obslužných rutin událostí
+            specifických pro ukazovací zařízení (včetně gest) pro funkci</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F55" target="_blank">F55: Selhání
+            kritérií úspěšnosti 2.1.1, 2.4.7 a 3.2.1 kvůli použití skriptu k
+            odstranění fokusu při obdržení fokusu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F58" target="_blank">F58: Selhání
+            kritéria úspěšnosti 2.2.1 kvůli použití technik na straně serveru k
+            automatickému přesměrování stránek po vypršení časového limitu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F59" target="_blank">F59: Selhání
+            kritéria úspěšnosti 4.1.2 kvůli použití skriptu k vytvoření prvku div nebo
+            span uživatelského rozhraní v HTML bez poskytnutí role pro tento ovládací
+            prvek</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F60" target="_blank">F60: Selhání
+            kritéria úspěšnosti 3.2.5 kvůli spuštění nového okna, když uživatel zadá
+            text do vstupního pole</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F61" target="_blank">F61: Selhání
+            kritéria úspěšnosti 3.2.5 kvůli úplné změně hlavního obsahu
+            prostřednictvím automatické aktualizace, kterou uživatel nemůže zakázat z
+            obsahu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F63" target="_blank">F63: Selhání
+            kritéria úspěšnosti 2.4.4 kvůli poskytnutí kontextu odkazu pouze v obsahu,
+            který s odkazem nesouvisí</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F65" target="_blank">F65: Selhání
+            kritéria úspěšnosti 1.1.1 kvůli vynechání atributu alt nebo textové
+            alternativy u prvků img, prvků plochy a vstupních prvků typu „image“</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F66" target="_blank">F66: Selhání
+            kritéria úspěšnosti 3.2.3 kvůli zobrazení navigačních odkazů v různém
+            relativním pořadí na různých stránkách</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F67" target="_blank">F67: Selhání
+            kritéria úspěšnosti 1.1.1 a 1.2.1 z důvodu poskytnutí dlouhých popisů pro
+            netextový obsah, který neslouží stejnému účelu nebo neposkytuje stejné
+            informace</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F68" target="_blank">F68: Selhání
+            kritéria úspěšnosti 4.1.2 kvůli tomu, že ovládací prvek uživatelského
+            rozhraní nemá programově určený název</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F69" target="_blank">F69: Selhání
+            kritéria úspěšnosti 1.4.4 při změně velikosti vizuálně vykresleného textu
+            až o 200 procent způsobí oříznutí, oříznutí nebo zakrytí textu, obrázku
+            nebo ovládacích prvků</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F70" target="_blank">F70: Selhání
+            kritéria úspěšnosti 4.1.1 kvůli nesprávnému použití počátečních a
+            koncových značek nebo označení atributů</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F71" target="_blank">F71: Selhání
+            kritéria úspěšnosti 1.1.1 kvůli použití podobných textů k reprezentaci
+            textu bez poskytnutí textové alternativy</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F72" target="_blank">F72: Selhání
+            kritéria úspěchu 1.1.1 kvůli použití ASCII art bez poskytnutí textové
+            alternativy</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F73" target="_blank">F73: Selhání
+            kritéria úspěšnosti 1.4.1 kvůli vytváření odkazů, které nejsou vizuálně
+            zřejmé bez barevného vidění</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F74" target="_blank">F74: Selhání
+            kritéria úspěšnosti 1.2.2 a 1.2.8 kvůli neoznačení alternativy
+            synchronizovaného média k textu jako alternativy</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F75" target="_blank">F75: Selhání
+            kritéria úspěšnosti 1.2.2 poskytnutím synchronizovaných médií bez titulků,
+            když synchronizovaná média obsahují více informací, než je uvedeno na
+            stránce</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F77" target="_blank">F77: Selhání
+            kritéria úspěšnosti 4.1.1 z důvodu duplicitních hodnot typu ID</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F78" target="_blank">F78: Selhání
+            kritéria úspěšnosti 2.4.7 kvůli úpravě obrysů a ohraničení prvku způsobem,
+            který odstraňuje nebo zneviditelní indikátor vizuálního zaostření</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F79" target="_blank">F79: Selhání
+            kritéria úspěšnosti 4.1.2 kvůli tomu, že stav fokusu komponenty
+            uživatelského rozhraní není programově určitelný nebo není k dispozici
+            oznámení o změně stavu fokusu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F80" target="_blank">F80: Selhání
+            kritéria úspěšnosti 1.4.4, když textové ovládací prvky formuláře nezmění
+            velikost, když se velikost vizuálně vykresleného textu změní až na 200 %</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F81" target="_blank">F81: Selhání
+            kritéria úspěšnosti 1.4.1 kvůli identifikaci povinných nebo chybových polí
+            pouze pomocí barevných rozdílů</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F82" target="_blank">F82: Selhání
+            kritéria úspěšnosti 3.3.2 vizuálním formátováním sady polí telefonních
+            čísel, ale bez textového štítku</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F83" target="_blank">F83: Selhání
+            kritéria úspěšnosti 1.4.3 a 1.4.6 kvůli použití obrázků na pozadí, které
+            neposkytují dostatečný kontrast s textem v popředí (nebo obrázky textu)</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F84" target="_blank">F84: Selhání
+            kritéria úspěšnosti 2.4.9 kvůli použití nespecifického odkazu, jako je
+            „klikněte sem“ nebo „více“, bez mechanismu pro změnu textu odkazu na
+            konkrétní text.</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F85" target="_blank">F85: Selhání
+            kritéria úspěšnosti 2.4.3 kvůli použití dialogových oken nebo nabídek,
+            které nesousedí s ovládacím prvkem spouštění v sekvenčním navigačním pořadí</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F86" target="_blank">F86: Selhání
+            kritéria úspěšnosti 4.1.2 kvůli neuvedení jmen pro každou část vícedílného
+            pole formuláře, jako je telefonní číslo v USA</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F87" target="_blank">F87: Selhání
+            kritéria úspěšnosti 1.3.1 kvůli vložení nedekorativního obsahu pomocí
+            pseudoprvků ::before a ::after a vlastnosti 'content' v CSS</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F88" target="_blank">F88: Selhání
+            kritéria úspěšnosti 1.4.8 kvůli použití textu, který je zarovnaný
+            (zarovnán k levému i pravému okraji)</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F89" target="_blank">F89: Selhání
+            kritérií úspěšnosti 2.4.4, 2.4.9 a 4.1.2 kvůli neposkytnutí přístupného
+            názvu obrázku, který je jediným obsahem odkazu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F90" target="_blank">F90: Selhání
+            kritéria úspěšnosti 1.3.1 pro nesprávné přiřazení záhlaví tabulky a obsahu
+            prostřednictvím atributů záhlaví a id</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F91" target="_blank">F91: Selhání
+            kritéria úspěšnosti 1.3.1 pro nesprávné označení záhlaví tabulky</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F92" target="_blank">F92: Selhání
+            kritéria úspěšnosti 1.3.1 kvůli použití prezentace role v obsahu, který
+            přenáší sémantické informace</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F93" target="_blank">F93: Selhání
+            kritéria úspěšnosti 1.4.2 kvůli absenci způsobu pozastavení nebo zastavení
+            mediálního prvku HTML5, který se automaticky přehrává</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F94" target="_blank">F94: Selhání
+            kritéria úspěšnosti 1.4.4 kvůli nesprávnému použití jednotek výřezu ke
+            změně velikosti textu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F95" target="_blank">F95: Selhání
+            kritéria úspěšnosti 1.4.13 kvůli tomu, že obsah zobrazený při umístění
+            kurzoru nelze umístit</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F96" target="_blank">F96: Selhání,
+            protože přístupný název neobsahuje viditelný text štítku</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F97" target="_blank">F97: Selhání
+            kvůli uzamčení orientace na šířku nebo na výšku</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F98" target="_blank">F98: Selhání
+            z důvodu omezení interakcí pouze na dotyková zařízení s dotykovou
+            obrazovkou</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F99" target="_blank">F99: Selhání
+            kritéria úspěšnosti 2.1.4 kvůli implementaci klávesových zkratek, které
+            nelze vypnout nebo přemapovat</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F100" target="_blank">F100:
+            Selhání kritéria úspěšnosti 1.3.4 kvůli zobrazení zprávy požadující změnu
+            orientace zařízení</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F101" target="_blank">F101:
+            Selhání kritéria úspěšnosti 2.5.2 kvůli aktivaci kontroly na sestupné
+            události</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F102" target="_blank">F102:
+            Selhání kritéria úspěšnosti 1.4.10 kvůli mizení obsahu a nedostupnosti
+            obsahu, když byl obsah přeformátován</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F103" target="_blank">F103:
+            Selhání kritéria úspěšnosti 4.1.3 kvůli poskytování stavových zpráv, které
+            nelze programově určit prostřednictvím role nebo vlastností</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F104" target="_blank">F104:
+            Selhání kritéria úspěšnosti 1.4.12 v důsledku oříznutého nebo
+            překrývajícího se obsahu při úpravě mezer mezi textem</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F105" target="_blank">F105:
+            Selhání kritéria úspěšnosti 2.5.1 kvůli poskytování funkcí prostřednictvím
+            gesta založeného na cestě bez jednoduché alternativy ukazatele</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F106" target="_blank">F106:
+            Selhání kvůli nemožnosti deaktivovat pohyb</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F107" target="_blank">F107:
+            Selhání kritéria úspěšnosti 1.3.5 kvůli nesprávným hodnotám atributů
+            automatického doplňování</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F108" target="_blank">F108:
+            Selhání kritéria úspěšnosti 2.5.X Přetahování kvůli neposkytnutí metody
+            jediného ukazatele pro uživatele k ovládání funkce, která nevyžaduje pohyb
+            přetažení</a></li>
+</ul>
+
+<p><b>Obecné techniky<a href="https://www.w3.org/WAI/WCAG21/Techniques/#general"
+            title="Trvalý odkaz na Obecné techniky" target="_blank">§</a></b></p>
+
+<ul>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G1" target="_blank">G1: Přidání
+            odkazu do horní části každé stránky, který vede přímo do oblasti hlavního
+            obsahu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/hidden-control-2" target="_blank">hidden-control-2:
+            Poskytněte nastavení, aby ovládací prvky viditelně přetrvávaly</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G4" target="_blank">G4: Povolení
+            pozastavení obsahu a jeho restartování od místa, kde byl pozastaven</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G5" target="_blank">G5: Umožňuje
+            uživatelům dokončit aktivitu bez jakéhokoli časového omezení</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G8" target="_blank">G8: Poskytování
+            filmu s rozšířenými zvukovými popisy</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G9" target="_blank">G9: Vytváření
+            titulků pro živě synchronizovaná média</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G10" target="_blank">G10: Vytváření
+            komponent pomocí technologie, která podporuje upozornění na změny
+            přístupnosti</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G11" target="_blank">G11: Vytváření
+            obsahu, který bliká méně než 5 sekund</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G13" target="_blank">G13: Popis
+            toho, co se stane před provedením změny ovládacího prvku formuláře, která
+            způsobí, že dojde ke změně kontextu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G14" target="_blank">G14:
+            Zajištění, aby informace přenášené barevnými rozdíly byly dostupné také v
+            textu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G15" target="_blank">G15: Použití
+            nástroje k zajištění toho, že obsah nepřekročí obecný práh záblesku nebo
+            práh červeného záblesku</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G17" target="_blank">G17: Zajištění
+            kontrastního poměru alespoň 7:1 mezi textem (a obrázky textu) a pozadím za
+            textem</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G18" target="_blank">G18: Zajištění
+            kontrastního poměru alespoň 4,5:1 mezi textem (a obrázky textu) a pozadím
+            za textem</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G19" target="_blank">G19: Zajištění
+            toho, že žádná složka obsahu neblikne více než třikrát během 1 sekundy</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G21" target="_blank">G21:
+            Zajištění, že uživatelé nebudou uvězněni v obsahu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G53" target="_blank">G53:
+            Identifikace účelu odkazu pomocí textu odkazu kombinovaného s textem
+            přiložené věty</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G54" target="_blank">G54: Zahrnutí
+            tlumočníka znakového jazyka do video streamu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G55" target="_blank">G55: Propojení
+            s definicemi</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G56" target="_blank">G56: Míchání
+            zvukových souborů tak, aby zvuky, které nejsou řeči, byly alespoň o 20
+            decibelů nižší než zvukový obsah řeči</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G57" target="_blank">G57:
+            Uspořádání obsahu ve smysluplném pořadí</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G58" target="_blank">G58: Umístění
+            odkazu na alternativu pro časově orientovaná média bezprostředně vedle
+            netextového obsahu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G59" target="_blank">G59: Umístění
+            interaktivních prvků v pořadí, které sleduje sekvence a vztahy v rámci
+            obsahu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G60" target="_blank">G60:
+            Přehrávání zvuku, který se automaticky vypne do tří sekund</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G61" target="_blank">G61:
+            Prezentace opakovaných komponent ve stejném relativním pořadí pokaždé,
+            když se objeví</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G62" target="_blank">G62:
+            Poskytování glosáře</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G63" target="_blank">G63:
+            Poskytnutí mapy webu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G64" target="_blank">G64:
+            Poskytnutí obsahu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G65" target="_blank">G65: Poskytování
+            cesty drobečkové navigace</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G68" target="_blank">G68:
+            Poskytování krátké textové alternativy, která popisuje účel živého pouze
+            zvukového a živého video obsahu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G69" target="_blank">G69:
+            Poskytování alternativy pro časově orientovaná média</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G70" target="_blank">G70:
+            Poskytování funkce pro vyhledávání v online slovníku</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G71" target="_blank">G71:
+            Poskytování odkazu na nápovědu na každé webové stránce</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G73" target="_blank">G73:
+            Poskytnutí dlouhého popisu na jiném místě s odkazem na něj, který
+            bezprostředně sousedí s netextovým obsahem</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G74" target="_blank">G74:
+            Poskytování dlouhého popisu v textu poblíž netextového obsahu s odkazem na
+            umístění dlouhého popisu v krátkém popisu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G75" target="_blank">G75:
+            Poskytování mechanismu pro odložení jakékoli aktualizace obsahu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G76" target="_blank">G76:
+            Poskytování mechanismu pro vyžádání aktualizace obsahu namísto automatické
+            aktualizace</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G78" target="_blank">G78:
+            Poskytování druhé, uživatelem volitelné zvukové stopy, která obsahuje
+            zvukové popisy</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G79" target="_blank">G79:
+            Poskytování mluvené verze textu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G80" target="_blank">G80:
+            Poskytnutí tlačítka pro odeslání pro zahájení změny kontextu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G81" target="_blank">G81:
+            Poskytování synchronizovaného videa tlumočníka znakového jazyka, které lze
+            zobrazit v jiném výřezu nebo překrýt obraz přehrávačem</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G82" target="_blank">G82:
+            Poskytnutí textové alternativy, která identifikuje účel netextového obsahu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G83" target="_blank">G83:
+            Poskytování textových popisů k identifikaci povinných polí, která nebyla
+            vyplněna</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G84" target="_blank">G84:
+            Poskytnutí textového popisu, když uživatel poskytne informace, které
+            nejsou v seznamu povolených hodnot</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G85" target="_blank">G85:
+            Poskytnutí textového popisu, když vstup uživatele spadá mimo požadovaný
+            formát nebo hodnoty</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G86" target="_blank">G86:
+            Poskytování shrnutí textu, které je srozumitelné pro osoby s nižším
+            sekundárním vzděláním se schopností číst</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G87" target="_blank">G87:
+            Poskytování skrytých titulků</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G88" target="_blank">G88:
+            Poskytování popisných názvů pro webové stránky</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G89" target="_blank">G89:
+            Poskytnutí očekávaného formátu dat a příkladu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G90" target="_blank">G90:
+            Poskytování obslužných programů událostí spouštěných klávesnicí</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G91" target="_blank">G91:
+            Poskytnutí textu odkazu, který popisuje účel odkazu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G92" target="_blank">G92:
+            Poskytování dlouhého popisu pro netextový obsah, který slouží stejnému
+            účelu a poskytuje stejné informace</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G93" target="_blank">G93:
+            Poskytování otevřených (vždy viditelných) titulků</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G94" target="_blank">G94:
+            Poskytování krátké textové alternativy pro netextový obsah, který slouží
+            stejnému účelu a poskytuje stejné informace jako netextový obsah</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G95" target="_blank">G95:
+            Poskytování krátkých textových alternativ, které poskytují stručný popis
+            netextového obsahu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G96" target="_blank">G96:
+            Poskytování textové identifikace položek, které jinak spoléhají pouze na
+            smyslové informace, které mají být pochopeny</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G97" target="_blank">G97:
+            Poskytnutí prvního použití zkratky bezprostředně před nebo za rozšířeným
+            formulářem</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G98" target="_blank">G98: Umožňuje
+            uživateli zkontrolovat a opravit odpovědi před odesláním</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G99" target="_blank">G99: Poskytuje
+            možnost obnovit smazané informace</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G100" target="_blank">G100:
+            Poskytnutí krátké textové alternativy, což je přijímaný název nebo popisný
+            název netextového obsahu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G101" target="_blank">G101:
+            Poskytnutí definice slova nebo fráze používané neobvyklým nebo omezeným
+            způsobem</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G102" target="_blank">G102:
+            Poskytování rozšíření nebo vysvětlení zkratky</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G103" target="_blank">G103:
+            Poskytování vizuálních ilustrací, obrázků a symbolů, které pomáhají
+            vysvětlit myšlenky, události a procesy</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G105" target="_blank">G105:
+            Ukládání dat, aby je bylo možné použít po opětovné autentizaci uživatele</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G107" target="_blank">G107: Použití
+            „aktivovat“ spíše než „zaostřit“ jako spouštěč změn kontextu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G108" target="_blank">G108:
+            Používání značkovacích funkcí k odhalení názvu a role, umožňuje přímo
+            nastavit vlastnosti nastavitelné uživatelem a poskytuje upozornění na
+            změny</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G110" target="_blank">G110: Použití
+            okamžitého přesměrování na straně klienta</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G111" target="_blank">G111: Použití
+            barvy a vzoru</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G112" target="_blank">G112: Použití
+            inline definic</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G115" target="_blank">G115: Použití
+            sémantických prvků k označení struktury</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G117" target="_blank">G117: Použití
+            textu k předání informací, které jsou přenášeny variacemi v prezentaci
+            textu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G120" target="_blank">G120:
+            Poskytování výslovnosti bezprostředně za slovem</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G121" target="_blank">G121:
+            Odkazování na výslovnosti</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G123" target="_blank">G123: Přidání
+            odkazu na začátek bloku s opakovaným obsahem pro přechod na konec bloku</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G124" target="_blank">G124: Přidání
+            odkazů v horní části stránky do každé oblasti obsahu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G125" target="_blank">G125:
+            Poskytování odkazů pro navigaci na související webové stránky</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G126" target="_blank">G126:
+            Poskytnutí seznamu odkazů na všechny ostatní webové stránky</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G127" target="_blank">G127:
+            Identifikace vztahu webové stránky k větší sbírce webových stránek</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G128" target="_blank">G128:
+            Indikace aktuální polohy v navigačních lištách</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G130" target="_blank">G130:
+            Poskytování popisných nadpisů</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G131" target="_blank">G131:
+            Poskytování popisných štítků</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G133" target="_blank">G133:
+            Poskytnutí zaškrtávacího políčka na první stránce vícedílného formuláře,
+            které uživatelům umožňuje požádat o delší časový limit relace nebo žádný
+            časový limit relace</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G134" target="_blank">G134:
+            Ověřování webových stránek</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G135" target="_blank">G135: Použití
+            funkcí rozhraní API pro usnadnění přístupu k odhalení názvů a upozornění
+            na změny</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G136" target="_blank">G136:
+            Poskytnutí odkazu na začátku nevyhovující webové stránky, který ukazuje na
+            vyhovující alternativní verzi</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G138" target="_blank">G138: Použití
+            sémantického označení při každém použití barevných podnětů</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G139" target="_blank">G139:
+            Vytvoření mechanismu, který uživatelům umožňuje přejít na chyby</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G140" target="_blank">G140:
+            Oddělení informací a struktury od prezentace pro umožnění různých
+            prezentací</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G141" target="_blank">G141:
+            Uspořádání stránky pomocí nadpisů</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G142" target="_blank">G142: Použití
+            technologie, která má běžně dostupné uživatelské agenty, které podporují
+            zoom</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G143" target="_blank">G143:
+            Poskytnutí textové alternativy, která popisuje účel CAPTCHA</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G144" target="_blank">G144:
+            Zajištění toho, že webová stránka obsahuje další CAPTCHA sloužící stejnému
+            účelu s použitím jiné modality</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G145" target="_blank">G145:
+            Zajištění kontrastního poměru alespoň 3:1 mezi textem (a obrázky textu) a
+            pozadím za textem</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G146" target="_blank">G146: Použití
+            tekutého rozložení</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G148" target="_blank">G148:
+            Neurčuje barvu pozadí, neurčuje barvu textu a nepoužívá technologické
+            funkce, které mění tato výchozí nastavení</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G149" target="_blank">G149: Použití
+            komponent uživatelského rozhraní, které jsou zvýrazněny uživatelským
+            agentem, když získají fokus</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G150" target="_blank">G150:
+            Poskytování textových alternativ pro živý pouze zvukový obsah</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G151" target="_blank">G151:
+            Poskytnutí odkazu na textový přepis připraveného příkazu nebo skriptu,
+            pokud je skript dodržen</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G152" target="_blank">G152:
+            Nastavení animovaných obrázků GIF, aby přestaly blikat po n cyklech (do 5
+            sekund)</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G153" target="_blank">G153:
+            Usnadnění čtení textu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G155" target="_blank">G155:
+            Poskytnutí zaškrtávacího políčka vedle tlačítka Odeslat</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G156" target="_blank">G156: Použití
+            technologie, která má běžně dostupné uživatelské agenty, kteří mohou
+            změnit popředí a pozadí bloků textu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G157" target="_blank">G157:
+            Začlenění služby titulků živého zvuku do webové stránky</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G158" target="_blank">G158:
+            Poskytování alternativy pro časově orientovaná média pro pouze zvukový
+            obsah</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G159" target="_blank">G159:
+            Poskytování alternativy pro časově orientovaná média pro obsah pouze s
+            videem</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G160" target="_blank">G160:
+            Poskytování verzí informací, nápadů a procesů ve znakové řeči, kterým je
+            třeba rozumět, aby bylo možné obsah používat</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G161" target="_blank">G161:
+            Poskytování funkce vyhledávání, která uživatelům pomáhá najít obsah</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G162" target="_blank">G162:
+            Umístění štítků pro maximalizaci předvídatelnosti vztahů</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G163" target="_blank">G163: Použití
+            standardních diakritických znamének, které lze vypnout</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G164" target="_blank">G164:
+            Poskytnutí stanovené doby, během níž může uživatel změnit nebo zrušit
+            online žádost (nebo transakci) po podání žádosti</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G165" target="_blank">G165: Použití
+            výchozího indikátoru zaostření pro platformu, aby se přenesly výchozí
+            indikátory zaostření s vysokou viditelností</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G166" target="_blank">G166:
+            Poskytování zvuku, který popisuje důležitý obsah videa a jako takový jej
+            popisuje</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G167" target="_blank">G167: Použití
+            sousedního tlačítka k označení účelu pole</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G168" target="_blank">G168:
+            Požadavek na potvrzení pro pokračování ve vybrané akci</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G169" target="_blank">G169:
+            Zarovnání textu pouze na jednu stranu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G170" target="_blank">G170:
+            Poskytování ovládacího prvku poblíž začátku webové stránky, který vypíná
+            zvuky, které se přehrávají automaticky</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G171" target="_blank">G171:
+            Přehrávání zvuků pouze na žádost uživatele</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G172" target="_blank">G172:
+            Poskytování mechanismu pro odstranění úplného zarovnání textu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G173" target="_blank">G173:
+            Poskytování verze filmu se zvukovými popisy</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G174" target="_blank">G174:
+            Poskytování ovládacího prvku s dostatečným kontrastním poměrem, který
+            umožňuje uživatelům přepnout na prezentaci využívající dostatečný kontrast</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G175" target="_blank">G175:
+            Poskytování nástroje pro výběr více barev na stránce pro barvy popředí a
+            pozadí</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G176" target="_blank">G176:
+            Udržujte dostatečně malou oblast blikání</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G177" target="_blank">G177:
+            Poskytování textu navrhované opravy</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G178" target="_blank">G178:
+            Poskytování ovládacích prvků na webové stránce, které uživatelům umožňují
+            postupně měnit velikost veškerého textu na stránce až o 200 procent</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G179" target="_blank">G179:
+            Zajištění, že nedojde ke ztrátě obsahu nebo funkčnosti, když se změní
+            velikost textu a textové kontejnery nezmění svou šířku</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G180" target="_blank">G180:
+            Poskytování uživateli prostředky k nastavení časového limitu na 10násobek
+            výchozího časového limitu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G181" target="_blank">G181:
+            Kódování uživatelských dat jako skrytých nebo šifrovaných dat na stránce
+            opětovné autorizace</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G182" target="_blank">G182:
+            Zajištění dostupnosti dalších vizuálních podnětů, když se k přenosu
+            informací používají rozdíly v barvě textu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G183" target="_blank">G183: Použití
+            kontrastního poměru 3:1 s okolním textem a poskytnutí dalších vizuálních
+            podnětů při umístění kurzoru pro odkazy nebo ovládací prvky, kde se k
+            jejich identifikaci používá pouze barva</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G184" target="_blank">G184:
+            Poskytování textových pokynů na začátku formuláře nebo sady polí, které
+            popisují nezbytný vstup</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G185" target="_blank">G185:
+            Odkazování na všechny stránky na webu z domovské stránky</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G186" target="_blank">G186: Použití
+            ovládacího prvku na webové stránce, který zastaví pohyb, blikání nebo
+            automatickou aktualizaci obsahu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G187" target="_blank">G187: Použití
+            technologie k zahrnutí blikajícího obsahu, který lze vypnout pomocí
+            uživatelského agenta</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G188" target="_blank">G188:
+            Poskytnutí tlačítka na stránce pro zvětšení řádků a odstavců</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G189" target="_blank">G189:
+            Poskytování ovládacího prvku blízko začátku webové stránky, který mění
+            text odkazu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G190" target="_blank">G190:
+            Poskytnutí odkazu sousedícího s nevyhovujícím objektem nebo s ním
+            spojeného, ​​který odkazuje na vyhovující alternativní verzi</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G191" target="_blank">G191:
+            Poskytnutí odkazu, tlačítka nebo jiného mechanismu, který znovu načte
+            stránku bez jakéhokoli blikání obsahu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G192" target="_blank">G192: Plně
+            odpovídá specifikacím</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G193" target="_blank">G193:
+            Poskytování pomoci asistentem na webové stránce</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G194" target="_blank">G194:
+            Poskytování kontroly pravopisu a návrhů pro zadávání textu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G195" target="_blank">G195: Použití
+            autorem dodaného viditelného indikátoru zaostření</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G196" target="_blank">G196: Použití
+            textové alternativy na jedné položce ve skupině obrázků, která popisuje
+            všechny položky ve skupině</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G197" target="_blank">G197:
+            Důsledné používání štítků, názvů a textových alternativ pro obsah se
+            stejnou funkčností</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G198" target="_blank">G198:
+            Poskytuje uživateli způsob, jak vypnout časový limit</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G199" target="_blank">G199:
+            Poskytování zpětné vazby o úspěchu při úspěšném odeslání dat</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G200" target="_blank">G200:
+            Otevírání nových oken a karet z odkazu pouze v případě potřeby</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G201" target="_blank">G201:
+            Poskytuje uživatelům pokročilé varování při otevření nového okna</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G202" target="_blank">G202:
+            Zajištění ovládání klávesnice pro všechny funkce</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G203" target="_blank">G203: Použití
+            statické textové alternativy k popisu videa s mluvící hlavou</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G204" target="_blank">G204:
+            Nezasahuje do přeformátování textu uživatelského agenta, protože se okno
+            zobrazení zužuje</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G205" target="_blank">G205: Včetně
+            textové nápovědy pro barevné popisky ovládacích prvků formuláře</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G206" target="_blank">G206:
+            Poskytování možností v obsahu pro přepnutí na rozvržení, které nevyžaduje,
+            aby se uživatel při čtení řádku textu posouval vodorovně</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G207" target="_blank">G207:
+            Zajištění kontrastního poměru 3:1 pro ikony</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G208" target="_blank">G208: Včetně
+            textu viditelného štítku jako součásti přístupného názvu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G209" target="_blank">G209:
+            Zajistěte dostatečný kontrast na hranicích mezi sousedními barvami</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G210" target="_blank">G210:
+            Zajištění, že akce přetažení lze zrušit</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G211" target="_blank">G211:
+            Přiřazení přístupného názvu k viditelnému štítku</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G212" target="_blank">G212: Použití
+            nativních ovládacích prvků k zajištění spuštění funkce při up-události.</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G213" target="_blank">G213:
+            Poskytuje konvenční ovládací prvky a nastavení aplikace pro vstup
+            aktivovaný pohybem</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G214" target="_blank">G214: Použití
+            ovládacího prvku pro umožnění přístupu k obsahu v různých orientacích,
+            který je jinak omezen</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G215" target="_blank">G215:
+            Poskytování ovládacích prvků pro dosažení stejného výsledku jako gesta
+            založená na cestě nebo vícebodová gesta</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G216" target="_blank">G216:
+            Poskytování jednobodové aktivace pro ovládací posuvník</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G217" target="_blank">G217:
+            Poskytuje mechanismus, který uživatelům umožňuje přemapovat nebo vypnout
+            klávesové zkratky znaků</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G218" target="_blank">G218: Ověření
+            e-mailového odkazu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G219" target="_blank">G219:
+            Zajištění, že je k dispozici alternativa jediného ukazatele pro pohyby
+            tažením, které působí na obsah</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G220" target="_blank">G220:
+            Poskytněte odkaz na nás na konzistentním místě</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G221" target="_blank">G221:
+            Poskytněte data z předchozího kroku v procesu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G222" target="_blank">G222:
+            Poskytněte trvale viditelné ovládací prvky</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G223" target="_blank">G223: Použití
+            autorem dodaného, ​​dobře viditelného indikátoru zaostření</a></li>
+</ul>
+
+<p><b>HTML techniky<a href="https://www.w3.org/WAI/WCAG21/Techniques/#html"
+            title="Trvalý odkaz na techniky HTML" target="_blank">§</a></b></p>
+
+<ul>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H2" target="_blank">H2:
+            Kombinace sousedních obrázkových a textových odkazů pro stejný zdroj</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H4" target="_blank">H4:
+            Vytvoření logického pořadí karet pomocí odkazů, ovládacích prvků formuláře
+            a objektů</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H24" target="_blank">H24:
+            Poskytování textových alternativ pro plošné prvky obrazových map</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H25" target="_blank">H25:
+            Poskytnutí názvu pomocí prvku title</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H28" target="_blank">H28:
+            Poskytování definic zkratek pomocí prvku abbr</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H30" target="_blank">H30:
+            Poskytování textu odkazu, který popisuje účel odkazu pro kotevní prvky</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H32" target="_blank">H32:
+            Poskytování tlačítek pro odeslání</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H33" target="_blank">H33:
+            Doplnění textu odkazu atributem title</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H34" target="_blank">H34:
+            Použití značky Unicode zprava doleva (RLM) nebo značky zleva doprava (LRM)
+            k míchání směru textu v řádku</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H35" target="_blank">H35:
+            Poskytování textových alternativ na prvcích apletu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H36" target="_blank">H36:
+            Použití atributů alt u obrázků používaných jako tlačítka pro odeslání</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H37" target="_blank">H37:
+            Použití atributů alt u prvků img</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H39" target="_blank">H39:
+            Použití prvků caption k přiřazení popisků datových tabulek k datovým
+            tabulkám</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H40" target="_blank">H40:
+            Použití seznamů popisů</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H42" target="_blank">H42:
+            Použití h1-h6 k identifikaci nadpisů</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H43" target="_blank">H43:
+            Použití atributů id a headers k přidružení datových buněk k buňkám záhlaví
+            v datových tabulkách</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H44" target="_blank">H44:
+            Použití prvků štítků k přiřazení textových štítků k ovládacím prvkům
+            formuláře</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H45" target="_blank">H45:
+            Použití longdesc</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H46" target="_blank">H46:
+            Použití noembed s embed</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H48" target="_blank">H48:
+            Použití ol, ul a dl pro seznamy nebo skupiny odkazů</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H49" target="_blank">H49:
+            Použití sémantického označení k označení zdůrazněného nebo speciálního
+            textu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H51" target="_blank">H51:
+            Použití tabulkových značek k prezentaci tabulkových informací</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H53" target="_blank">H53:
+            Použití těla prvku object</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H54" target="_blank">H54:
+            Použití prvku dfn k identifikaci definující instance slova</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H56" target="_blank">H56:
+            Použití atributu dir na vloženém prvku k vyřešení problémů s vnořenými
+            směrovými běhy</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H57" target="_blank">H57:
+            Použití atributu language v prvku HTML</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H58" target="_blank">H58:
+            Používání jazykových atributů k identifikaci změn v lidské řeči</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H59" target="_blank">H59:
+            Použití prvku odkazu a navigačních nástrojů</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H60" target="_blank">H60:
+            Použití prvku odkazu k odkazu na glosář</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H62" target="_blank">H62:
+            Použití rubínového prvku</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H63" target="_blank">H63:
+            Použití atributu oboru k přiřazení buněk záhlaví a datových buněk v
+            datových tabulkách</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H64" target="_blank">H64:
+            Použití atributu title prvku iframe</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H65" target="_blank">H65:
+            Použití atributu title k identifikaci ovládacích prvků formuláře, když
+            nelze použít prvek štítku</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H67" target="_blank">H67:
+            Použití nulového alternativního textu a žádného atributu title u prvků img
+            pro obrázky, které by asistenční technologie měla ignorovat</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H69" target="_blank">H69:
+            Poskytování prvků nadpisu na začátku každé části obsahu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H70" target="_blank">H70:
+            Použití prvků rámu k seskupení bloků opakovaného materiálu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H71" target="_blank">H71:
+            Poskytování popisu skupin ovládacích prvků formuláře pomocí prvků sady
+            polí a legend</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H73" target="_blank">H73:
+            Použití souhrnného atributu prvku tabulky k poskytnutí přehledu datových
+            tabulek</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H74" target="_blank">H74:
+            Zajištění toho, že otevírací a uzavírací štítky jsou používány podle
+            specifikace</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H75" target="_blank">H75:
+            Zajištění správného tvaru webových stránek</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H76" target="_blank">H76:
+            Použití meta refresh k vytvoření okamžitého přesměrování na straně klienta</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77" target="_blank">H77:
+            Identifikace účelu odkazu pomocí textu odkazu v kombinaci s jeho položkou
+            seznamu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78" target="_blank">H78:
+            Identifikace účelu odkazu pomocí textu odkazu v kombinaci s jeho
+            přiloženým odstavcem</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79" target="_blank">H79:
+            Identifikace účelu odkazu v datové tabulce pomocí textu odkazu v kombinaci
+            s jeho ohraničující buňkou tabulky a přidruženými buňkami záhlaví tabulky</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80" target="_blank">H80:
+            Identifikace účelu odkazu pomocí textu odkazu v kombinaci s předchozím
+            prvkem nadpisu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81" target="_blank">H81:
+            Identifikace účelu odkazu ve vnořeném seznamu pomocí textu odkazu
+            kombinovaného s nadřazenou položkou seznamu, pod kterou je seznam vnořen</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H83" target="_blank">H83:
+            Použití atributu target k otevření nového okna na žádost uživatele a uvedení
+            tohoto v textu odkazu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H84" target="_blank">H84:
+            Použití tlačítka s prvkem select k provedení akce</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H85" target="_blank">H85:
+            Použití optgroup k seskupení prvků voleb uvnitř výběru</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H86" target="_blank">H86:
+            Poskytování textových alternativ pro emotikony, emotikony, ASCII art a
+            leetspeak</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H88" target="_blank">H88:
+            Použití HTML podle spec</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H89" target="_blank">H89:
+            Použití atributu title k poskytování kontextově citlivé nápovědy</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H90" target="_blank">H90:
+            Označení požadovaných ovládacích prvků formuláře pomocí štítku nebo
+            legendy</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H91" target="_blank">H91:
+            Používání ovládacích prvků a odkazů formuláře HTML</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H93" target="_blank">H93:
+            Zajištění, aby atributy id byly na webové stránce jedinečné</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H94" target="_blank">H94:
+            Zajištění, aby prvky neobsahovaly duplicitní atributy</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H95" target="_blank">H95:
+            Použití prvku stopy k poskytnutí titulků</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H96" target="_blank">H96:
+            Použití prvku stopy k poskytnutí zvukových popisů</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H97" target="_blank">H97:
+            Seskupování souvisejících odkazů pomocí prvku nav</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H98" target="_blank">H98:
+            Používání atributů automatického doplňování HTML 5.2</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H99" target="_blank">H99:
+            Poskytněte mechanismus pro výběr stránek</a></li>
+</ul>
+
+<p><b>Techniky PDF<a href="https://www.w3.org/WAI/WCAG21/Techniques/#pdf" title="Trvalý odkaz na techniky PDF" target="_blank">§</a></b>
+</p>
+
+<ul>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1" target="_blank">PDF1:
+            Použití textových alternativ na obrázky pomocí položky Alt v dokumentech
+            PDF</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF2" target="_blank">PDF2:
+            Vytváření záložek v dokumentech PDF</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3" target="_blank">PDF3:
+            Zajištění správného tabulátoru a pořadí čtení v dokumentech PDF</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF4" target="_blank">PDF4:
+            Skrytí dekorativních obrázků pomocí značky Artefakt v dokumentech PDF</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF5" target="_blank">PDF5:
+            Označení požadovaných ovládacích prvků formuláře ve formulářích PDF</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF6" target="_blank">PDF6:
+            Použití prvků tabulky pro označení tabulky v dokumentech PDF</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF7" target="_blank">PDF7:
+            Provádění OCR na naskenovaném dokumentu PDF za účelem poskytnutí
+            skutečného textu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF8" target="_blank">PDF8:
+            Poskytování definic zkratek prostřednictvím položky E pro prvek struktury</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF9" target="_blank">PDF9:
+            Poskytování nadpisů označením obsahu tagy nadpisů v dokumentech PDF</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10" target="_blank">PDF10:
+            Poskytování štítků pro interaktivní ovládací prvky formulářů v dokumentech
+            PDF</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF11" target="_blank">PDF11:
+            Poskytování odkazů a textu odkazů pomocí anotace Odkaz a prvku struktury
+            /Link v dokumentech PDF</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF12" target="_blank">PDF12:
+            Poskytování informací o názvu, roli a hodnotě pro pole formuláře v
+            dokumentech PDF</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF13" target="_blank">PDF13:
+            Poskytování náhradního textu pomocí položky /Alt pro odkazy v dokumentech
+            PDF</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF14" target="_blank">PDF14:
+            Poskytování běžících záhlaví a zápatí v dokumentech PDF</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF15" target="_blank">PDF15:
+            Poskytování tlačítek pro odeslání s akcí formuláře pro odeslání ve formulářích
+            PDF</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF16" target="_blank">PDF16: Nastavení
+            výchozího jazyka pomocí položky /Lang v katalogu dokumentů dokumentu PDF</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF17" target="_blank">PDF17: Určení
+            konzistentního číslování stránek pro dokumenty PDF</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF18" target="_blank">PDF18: Určení
+            názvu dokumentu pomocí položky Název ve slovníku informací o dokumentu
+            dokumentu PDF</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF19" target="_blank">PDF19: Určení
+            jazyka pro pasáž nebo frázi se záznamem Lang v dokumentech PDF</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF20" target="_blank">PDF20: Použití
+            editoru tabulek Adobe Acrobat Pro k opravě chybně označených tabulek</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF21" target="_blank">PDF21: Použití
+            značek seznamu pro seznamy v dokumentech PDF</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF22" target="_blank">PDF22: Indikuje,
+            že vstup uživatele spadá mimo požadovaný formát nebo hodnoty ve
+            formulářích PDF</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF23" target="_blank">PDF23:
+            Poskytování interaktivních ovládacích prvků formulářů v dokumentech PDF</a></li>
+</ul>
+
+<p><b>Techniky skriptů na straně serveru<a href="https://www.w3.org/WAI/WCAG21/Techniques/#server-side-script"
+            title="Trvalý odkaz na techniky skriptů na straně serveru" target="_blank">§</a></b></p>
+
+<ul>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/server-side-script/SVR1" target="_blank">SVR1:
+            Implementace automatických přesměrování na straně serveru namísto na
+            straně klienta</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/server-side-script/SVR2" target="_blank">SVR2:
+            Použití .htaccess k zajištění toho, že jediný způsob, jak získat přístup k
+            nevyhovujícímu obsahu, je z vyhovujícího obsahu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/server-side-script/SVR3" target="_blank">SVR3:
+            Použití odkazu HTTP k zajištění toho, že jediný způsob přístupu k
+            nevyhovujícímu obsahu je z vyhovujícího obsahu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/server-side-script/SVR4" target="_blank">SVR4:
+            Umožňuje uživatelům poskytnout preference pro zobrazení vyhovujících
+            alternativních verzí</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/server-side-script/SVR5" target="_blank">SVR5:
+            Určení výchozího jazyka v hlavičce HTTP</a></li>
+</ul>
+
+<p><b>Techniky Silverlight<a href="https://www.w3.org/WAI/WCAG21/Techniques/#silverlight"
+            title="Trvalý odkaz na techniky Silverlight" target="_blank">§</a></b></p>
+
+<ul>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL1" target="_blank">SL1: Přístup
+            k alternativním zvukovým stopám v Silverlight Media</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL2" target="_blank">SL2: Změna
+            indikátoru vizuálního zaměření v programu Silverlight</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL3" target="_blank">SL3:
+            Ovládání hlasitosti zvuku Silverlight MediaElement</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL4" target="_blank">SL4:
+            Deklarování diskrétních objektů Silverlight k určení jazykových částí v
+            HTML DOM</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL5" target="_blank">SL5:
+            Definování třídy zaostřitelného obrazu pro Silverlight</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL6" target="_blank">SL6:
+            Definování UI Automation Peer pro vlastní Silverlight Control</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL7" target="_blank">SL7: Návrh
+            zaměřeného vizuálního stavu pro vlastní ovládací prvky Silverlight</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL8" target="_blank">SL8:
+            Zobrazení textu nápovědy v uživatelských rozhraních Silverlight</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL9" target="_blank">SL9:
+            Zpracování klíčových událostí pro aktivaci funkcí klávesnice v Silverlight</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL10" target="_blank">SL10:
+            Implementace vzoru formuláře pro odeslání v Silverlight</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL11" target="_blank">SL11:
+            Pozastavení nebo zastavení dekorativní animace Silverlight</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL12" target="_blank">SL12:
+            Pozastavení, zastavení nebo přehrávání médií v Silverlight MediaElements</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL13" target="_blank">SL13:
+            Poskytuje přepínač stylů pro přepnutí na vysoký kontrast</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL14" target="_blank">SL14:
+            Poskytování uživatelského ovládání kláves pro funkce klávesnice v
+            Silverlight</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL15" target="_blank">SL15:
+            Poskytování klávesových zkratek, které fungují v celé aplikaci Silverlight</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL16" target="_blank">SL16:
+            Poskytování textových titulků vložených do skriptu pro obsah MediaElement</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL17" target="_blank">SL17:
+            Poskytování statického alternativního obsahu pro přehrávání médií
+            Silverlight v prvku MediaElement</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL18" target="_blank">SL18:
+            Poskytování textového ekvivalentu pro netextové ovládací prvky Silverlight
+            pomocí AutomationProperties.Name</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL19" target="_blank">SL19:
+            Poskytování uživatelských instrukcí s AutomationProperties.HelpText v
+            Silverlight</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL20" target="_blank">SL20:
+            Spoléhání se na chování Silverlight AutomationPeer při nastavení
+            AutomationProperties.Name</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL21" target="_blank">SL21:
+            Nahrazení Silverlight časované animace neanimovaným prvkem</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL22" target="_blank">SL22:
+            Podpora zoomu prohlížeče v Silverlightu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL23" target="_blank">SL23:
+            Použití přepínače stylů ke zvětšení velikosti písma textových prvků
+            Silverlight</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL24" target="_blank">SL24:
+            Pomocí automatického přehrávání zabráníte automatickému přehrávání médií
+            Silverlight</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL25" target="_blank">SL25:
+            Použití ovládacích prvků a programového zaměření k obcházení bloků obsahu
+            v Silverlight</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL26" target="_blank">SL26:
+            Použití LabeledBy k přidružení štítků a cílů v Silverlight</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL27" target="_blank">SL27:
+            Použití vlastností jazyka/kultury tak, jak je odhalují aplikace
+            Silverlight a asistenční technologie</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL28" target="_blank">SL28:
+            Použití samostatných textových titulků ve formátu textu pro obsah
+            MediaElement</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL29" target="_blank">SL29:
+            Použití ovládacích prvků Silverlight &quot;List&quot; k definování bloků,
+            které lze obejít</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL30" target="_blank">SL30:
+            Použití Silverlight Control Compositing a AutomationProperties.Name</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL31" target="_blank">SL31:
+            Použití vlastností písma Silverlight k ovládání prezentace textu</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL32" target="_blank">SL32:
+            Použití textových prvků Silverlight pro odpovídající roli usnadnění</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL33" target="_blank">SL33:
+            Použití dobře vytvořeného XAML k definování uživatelského rozhraní
+            Silverlight</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL34" target="_blank">SL34:
+            Použití výchozí sekvence karet Silverlight a změna sekvencí karet pomocí
+            vlastností</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL35" target="_blank">SL35:
+            Použití rozhraní API Validation a ValidationSummary k implementaci
+            ověřování formulářů na straně klienta v programu Silverlight</a></li>
+</ul>
+
+<p><b>SMIL techniky<a href="https://www.w3.org/WAI/WCAG21/Techniques/#smil"
+            title="Trvalý odkaz na SMIL Techniques" target="_blank">§</a></b></p>
+
+<ul>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/smil/SM1" target="_blank">SM1:
+            Přidání rozšířeného zvukového popisu v SMIL 1.0</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/smil/SM2" target="_blank">SM2:
+            Přidání rozšířeného zvukového popisu v SMIL 2.0</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/smil/SM6" target="_blank">SM6:
+            Poskytování zvukového popisu v SMIL 1.0</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/smil/SM7" target="_blank">SM7:
+            Poskytování zvukového popisu v SMIL 2.0</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/smil/SM11" target="_blank">SM11:
+            Poskytování titulků prostřednictvím synchronizovaných textových proudů v
+            SMIL 1.0</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/smil/SM12" target="_blank">SM12:
+            Poskytování titulků prostřednictvím synchronizovaných textových proudů v
+            SMIL 2.0</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/smil/SM13" target="_blank">SM13:
+            Poskytování výkladu znakového jazyka prostřednictvím synchronizovaných
+            video streamů v SMIL 1.0</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/smil/SM14" target="_blank">SM14:
+            Poskytování výkladu znakového jazyka prostřednictvím synchronizovaných
+            video streamů v SMIL 2.0</a></li>
+</ul>
+
+<p><b>Techniky prostého textu<a href="https://www.w3.org/WAI/WCAG21/Techniques/#text"
+            title="Trvalý odkaz pro techniky prostého textu" target="_blank">§</a></b></p>
+
+<ul>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/text/T1" target="_blank">T1:
+            Použití standardních konvencí formátování textu pro odstavce</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/text/T2" target="_blank">T2:
+            Použití standardních konvencí formátování textu pro seznamy</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/text/T3" target="_blank">T3:
+            Použití standardních konvencí formátování textu pro nadpisy</a></li>
+</ul>
+
+<p><b>Protokol změn</b></p>
+
+<ul>
+    <li>Seznam nových, odstraněných nebo výrazně aktualizovaných
+        technik:</li>
+</ul>
+
+<ol style='margin-top:0cm' start=1 type=1>
+    <li>15. července 2020: Odstraněné techniky Flash.</li>
+    <li>12. září 2019: Přidáno&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F105" target="_blank">F105:
+            Selhání kritéria úspěchu 2.5.1 kvůli poskytování funkcí prostřednictvím
+            gesta založeného na cestě bez jednoduché alternativy ukazatele</a></li>
+    <li>12. září 2019: Přidáno&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F106" target="_blank">F106:
+            Selhání kvůli nemožnosti deaktivovat pohyb</a></li>
+    <li>3. září 2019: Přidáno&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F104" target="_blank">F104:
+            Selhání kritéria úspěšnosti 1.4.12 kvůli oříznutému nebo překrývajícímu se
+            obsahu při úpravě mezer mezi textem</a></li>
+    <li>3. září 2019: Přidáno&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F103" target="_blank">F103:
+            Selhání kritéria úspěšnosti 4.1.3 kvůli poskytování stavových zpráv, které
+            nelze programově určit pomocí role nebo vlastností</a></li>
+    <li>6. srpna 2019: Přidáno&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F102" target="_blank">F102:
+            Selhání kritéria úspěšnosti 1.4.10 kvůli mizení obsahu a nedostupnosti
+            obsahu po přeformátování</a></li>
+    <li>16. července 2019: Přidáno&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G216" target="_blank">G216:
+            Poskytování jednobodové aktivace pro ovládací posuvník</a></li>
+    <li>16. července 2019: Přidáno&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G215" target="_blank">G215:
+            Poskytování ovládacích prvků pro dosažení stejného výsledku jako gesta
+            založená na cestě nebo vícebodová gesta</a></li>
+    <li>16. července 2019: Přidáno&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F100" target="_blank">F100:
+            Selhání kritéria úspěšnosti 1.3.4 kvůli zobrazení zprávy požadující změnu
+            orientace zařízení</a></li>
+    <li>16. července 2019: Přidáno&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G214" target="_blank">G214: Použití
+            ovládacího prvku pro umožnění přístupu k obsahu v různých orientacích,
+            který je jinak omezen</a></li>
+    <li>10. července 2019: Přidáno&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C40" target="_blank">C40: Vytvoření
+            dvoubarevného indikátoru zaostření pro zajištění dostatečného kontrastu se
+            všemi komponenty</a></li>
+    <li>10. července 2019: Přidáno&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F99" target="_blank">F99: Selhání
+            kritéria úspěchu 2.1.4 kvůli implementaci klávesových zkratek, které nelze
+            vypnout nebo přemapovat</a></li>
+    <li>10. července 2019: Přidáno&nbsp;<a
+            href="https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR39" target="_blank">SCR39:
+            Zajištění toho, aby se obsah zaměřený na fokus nebo visel vznášel,
+            odmítatelný a trvalý</a></li>
+    <li>18. června 2019: Přidáno&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G212" target="_blank">G212: Použití
+            nativních ovládacích prvků k zajištění, že se funkce spustí při
+            up-události.</a></li>
+    <li>11. června 2019: Přidáno&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F98" target="_blank">F98: Selhání
+            z důvodu omezení interakcí pouze na dotyková zařízení s dotykovou
+            obrazovkou</a></li>
+    <li>18. června 2019: Přidáno&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G213" target="_blank">G213:
+            Poskytuje konvenční ovládací prvky a nastavení aplikace pro vstup
+            aktivovaný pohybem</a></li>
+    <li>25. května 2019: Přidáno&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA24" target="_blank">ARIA24: Sémantická
+            identifikace ikony písma pomocí role=&quot;img&quot;</a></li>
+    <li>26. dubna 2019: Přidáno&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F97" target="_blank">F97: Selhání
+            kvůli uzamčení orientace na šířku nebo na výšku</a></li>
+    <li>26. února 2019: Odstraněno&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F52" target="_blank">F52: Selhání
+            kritéria úspěšnosti 3.2.1 a 3.2.5 kvůli otevření nového okna, jakmile je
+            načtena nová stránka</a>&nbsp;z SC 3.2.1 (stále připojeno k SC 3.2.5)</li>
+    <li>26. února 2019: Přidáno&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G209" target="_blank">G209:
+            Zajistěte dostatečný kontrast na hranicích mezi sousedními barvami</a></li>
+    <li>10. ledna 2019: Přidáno&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C39" target="_blank">C39: Použití
+            dotazu CSS na snížení pohybu k zabránění pohybu</a></li>
+    <li>14. prosince 2018: Přidáno&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G207" target="_blank">G207:
+            Zajištění kontrastního poměru 3:1 pro ikony</a></li>
+    <li>30. listopadu 2018: Přidáno&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C38" target="_blank">C38: Použití CSS
+            šířky,
+            maximální šířky a flexboxu k přizpůsobení štítků a vstupů</a></li>
+    <li>30. listopadu 2018: Přidáno&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F95" target="_blank">F95: Selhání
+            kritéria úspěšnosti 1.4.13 kvůli tomu, že obsah zobrazený při umístění
+            kurzoru nelze umístit</a></li>
+    <li>13. listopadu 2018: Přidáno&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C34" target="_blank">C34: Použití
+            dotazů na média k odstranění lepivých záhlaví / zápatí</a></li>
+    <li>13. listopadu 2018: Přidáno&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C36" target="_blank">C36: Umožňuje
+            přepsání mezer mezi textem</a></li>
+    <li>13. listopadu 2018: Přidáno&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C37" target="_blank">C37: Použití
+            maximální šířky a výšky CSS pro přizpůsobení obrázků</a></li>
+    <li>30. listopadu 2018: Přidáno&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G207" target="_blank">G207:
+            Zajištění kontrastního poměru 3:1 pro ikony</a></li>
+    <li>30. listopadu 2018: Přidáno&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F95" target="_blank">F95: Selhání
+            kritéria úspěšnosti 1.4.13 kvůli tomu, že obsah zobrazený při umístění
+            kurzoru nelze umístit</a></li>
+    <li>30. listopadu 2018: Přidáno&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F96" target="_blank">F96: Selhání
+            kvůli přístupnému názvu, který neobsahuje viditelný text štítku</a></li>
+    <li>30. listopadu 2018: Přidáno&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C38" target="_blank">C38: Použití CSS
+            šířky, maximální šířky a flexboxu k přizpůsobení štítků a vstupů</a></li>
+    <li>14. prosince 2018: Přidáno&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G207" target="_blank">G207:
+            Zajištění kontrastního poměru 3:1 pro ikony</a></li>
+</ol>
+
+<ul>
+    <li>Podrobnější pohled na nedávné změny v informativních
+        dokumentech naleznete v&nbsp;<a href="https://github.com/w3c/wcag/commits/master" target="_blank">aktualizacích
+            githubu</a>&nbsp;.</li>
+</ul>
